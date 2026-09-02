@@ -1,5 +1,11 @@
 # cosmic-ext-control-center
 
+> **Status: not actively maintained.** I've moved my desktop off COSMIC, so I'm no
+> longer using or updating this. **0.1.5 is the final release from me.** What's
+> here works, but the things listed as planned below (D-Bus and HTTP plugin
+> actions, native-looking plugin tiles, per-module layout polish) are not coming
+> from me. If you'd like to take the project over, open an issue and it's yours.
+
 A modular control center for the [COSMIC](https://system76.com/cosmic) desktop.
 
 You arrange the module tiles you want (Wi-Fi, volume, media, power profile,
@@ -8,7 +14,7 @@ layout in a popup, where the tiles are live and interactive. If a tile you want
 isn't built in, you can add one with a small RON plugin file that runs shell
 commands, without writing Rust or recompiling.
 
-Status: early preview (0.1.4). It works and is usable day to day, but it still
+Status: early preview (0.1.5). It works and is usable day to day, but it still
 has rough edges. See [Known issues](#known-issues).
 
 <p align="center">
